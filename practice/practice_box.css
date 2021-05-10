@@ -1,0 +1,55 @@
+.box1 {
+    background-color: aquamarine;
+    max-width: 300px;
+    height: 500px;
+    overflow: hidden;
+}
+.box2 {
+    background-color: brown;
+    width: 600px;
+    max-height: 200px;
+    font-size: 2em;
+}
+.scroll{
+    overflow: scroll;
+}
+
+div p{
+    background-color: yellow;
+    border: 5px;
+    margin-right: 20px;
+    display: inline-block;
+    padding: 0%;
+    
+}
+.outer {
+    border: dashed red;
+    padding: 0;
+}
+.inner {
+    border: solid green;
+}
+.margin1 {
+    max-width: 300px;
+}
+.margin2{
+    max-width: 400px;
+    visibility: hidden;
+}
+.margin3 {
+    max-width: 200px;
+    display: none;
+}
+h1{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+    background-color: greenyellow;
+    color: hotpink;
+    font-family: monospace;
+    box-shadow: 20px 20px 20px red;
+    border-radius: 20px;
+}
