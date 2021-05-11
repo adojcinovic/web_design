@@ -1,0 +1,35 @@
+.circles {
+    list-style-type: circle;
+}
+.square {
+    list-style-type: square;
+}
+.upperA {
+    list-style-type: upper-alpha;
+}
+.roman {
+    list-style-type: upper-roman;
+}
+.img {
+    list-style-image: url(https://icons.iconarchive.com/icons/icojam/matreshka/16/red-matreshka-inside-icon-icon.png);
+}
+.img2 {
+    list-style-image: url(https://icons.iconarchive.com/icons/succodesign/love-is-in-the-web/16/heart-2-icon.png);
+}
+
+table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+table tr:nth-child(1) th{
+    background-color: #c1392a;
+    color: #ffffff;
+}
+table tr:nth-child(odd) {
+    background-color: silver;
+}
+table img {
+    width: 100px;
+}
