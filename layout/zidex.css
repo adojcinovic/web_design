@@ -1,0 +1,54 @@
+div {
+    width: 200px;
+    height: 200px;
+}
+.teal{
+    background-color: teal;
+}
+.tomato {
+    background-color: tomato;
+}
+.brown {
+    background-color: brown;
+}
+
+.first {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 1;
+}
+.lower-first{
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    z-index: 1;
+}
+.second {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    z-index: 1;
+}
+.lower-second{
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    z-index: 1;
+}
+.lower-third{
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    z-index: 1;
+}
+.div2 {
+    position: relative;
+    top: 500px;
+
+}
+.div3 {
+    position: relative;
+    top: 700px;
+    left: 400px;
+}

@@ -1,0 +1,47 @@
+form {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 500px;
+    height: 680px;
+    padding: 20px 50px;
+    color:#324354 ;
+    background-color: #eeeeee;
+    border-radius: 20px 2px 10px 0px;
+    margin: auto;
+}
+form label {
+    
+    font-size: 30px;
+}
+form input {
+    border: gray;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px 2px darkgray;
+    color: #867f8d;
+    font-size: 22px;
+    margin-top: 6px;
+    margin-bottom: 30px;
+    padding: 6px;
+    width: 100%;
+}
+
+.label{
+    display: block;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 40px ;
+    margin: auto;
+    text-align: center;
+}
+
+.label span {
+    color:#ffbe00 ;
+}
+.submit{
+    display: block;
+    background-color: #c1392b;
+    color: white;
+    width: 100%;
+    margin: auto;
+    padding: 7px;
+}
+
