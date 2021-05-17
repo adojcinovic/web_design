@@ -22,6 +22,7 @@
 .header h2 {
     display: inline-block;
     font-weight: 400;
+    color: royalblue;
 }
 
 .header ul {
@@ -36,7 +37,6 @@
 }
 
 .header ul li:first-child{
-    display: inline;
     background-color: royalblue;
     color: white;
     border-radius: 5px;
@@ -68,4 +68,70 @@
 
 .cards :nth-child(3n){
     margin-right: 0;
+}
+
+/* RESPONSIVE */
+
+@media all and (max-width: 1015px){
+    .card {
+        float: none;
+        width: 100%;
+        padding: 20px;
+        border: solid darkgray   1px;
+    }
+    .card img {
+        display: inline-block;
+        width: 40%;
+    }
+    .card p {
+        float: right;
+        width: 58%;
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 386px){
+    .header{
+        padding-top: 10px   ;
+    }
+
+    .header h2 {
+        display: inline;
+        margin-left: 35%;
+    }
+
+    .header ul {
+        float: none;
+        margin-top: 25px;
+        width: 100%;
+        padding: 0;
+    }
+    
+    .header ul li{
+        display: inherit;
+        padding: 10px 15px;
+        color: royalblue;
+        text-align: center;
+        border: solid 1px darkgray;
+        border-top: none;
+    }
+    .header ul li:first-child{
+        background-color: royalblue;
+        color: white;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .card {
+        float: none;
+        width: 100%;
+        padding: 20px;
+        border: solid darkgray   1px;
+    }
+    .card img {
+        width: 100%;
+    }
+    .card p {
+        width: 100%;
+        text-align: center;
+    }
 }
