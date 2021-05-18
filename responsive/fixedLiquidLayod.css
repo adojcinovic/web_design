@@ -19,11 +19,11 @@
 img {
     float: left;
 }
-.header div, img{
+header div, img{
     padding: 20px;
 }
 
-.header div {
+header div {
     padding: 20px;
     text-align: center;
     float: left;
