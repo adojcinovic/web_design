@@ -194,6 +194,14 @@ header button {
     margin-left: 13%;
 }
 
+.green li:first-child {
+    list-style-image: url(./assets/images/mobile-phone.png);
+}
+.green li:nth-child(2) {
+    list-style-image: url(./assets/images/email.png);
+}
+
+
 .pink h2 {
     margin-left: 25%;
     margin-top: 20%;
@@ -276,4 +284,18 @@ header button {
     position: absolute;
     top: 70%;
     left: 42%;
+}
+
+@media all and (max-width: 1200px) {
+    .main-wr {
+        width: 100%;
+        margin: 10px auto;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .main-wr {
+        width: 100%;
+        margin: 10px auto;
+    }
 }
