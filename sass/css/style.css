@@ -1,0 +1,17 @@
+section p {
+  color: orange;
+  background-color: purple;
+  height: 100px;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  font-size: 75px; }
+section div {
+  background-color: orange;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 50%;
+  left: 50%; }
+
+/*# sourceMappingURL=style.css.map */

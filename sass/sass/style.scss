@@ -1,0 +1,29 @@
+$orange-color: orange;
+$font-size: 75px;
+$width-max: 100%;
+
+@mixin div-blueprint ($somevalue){
+    width: $somevalue;
+    height: $somevalue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+
+section {
+    p {
+        color: $orange-color;
+        background-color: purple;
+        height: 100px;
+        text-align: center;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        font-size: $font-size;
+    }
+    
+    div {
+        background-color: $orange-color;
+        @include div-blueprint(70px)
+    }
+}
