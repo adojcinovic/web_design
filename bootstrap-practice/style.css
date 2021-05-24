@@ -1,0 +1,33 @@
+.color {
+    background-color: aquamarine;
+}
+div{
+    text-align: center;
+    padding: 10px;
+}
+.color2 {
+    background-color: gray;
+}
+p {
+    text-align: center;
+    background-color: purple;
+    margin: 10px 10px 10px 10px;
+    color: white;
+    font-size: 32px;
+}
+
+.color3 {
+    background-color: white;
+}
+
+.color4 {
+    background-color: hotpink;
+}
+
+.height {
+    height: 100px;
+}
+
+/* hr@saga.rs */
+
+/* scrum meeting, docker, progressive web app, typescript, https://formik.org/ */
